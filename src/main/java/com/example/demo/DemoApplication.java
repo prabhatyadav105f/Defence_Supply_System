@@ -12,8 +12,8 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
-    @GetMapping("/")
-    public ModelAndView serveHtml() {
-        return new ModelAndView("demo");
-    }
+//    @GetMapping("/")
+//    public ModelAndView serveHtml() {
+//        return new ModelAndView("demo");
+//    }
 }
